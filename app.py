@@ -1,5 +1,5 @@
 import streamlit as st
-import joblit
+import joblib
 
 #load the joblib model
 model_nb=joblit.load('spam-ham')
